@@ -1,0 +1,77 @@
+footer{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    padding: 15px;
+    gap: 30px;
+}
+
+.web-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.web-detail img{
+    width: 80%;
+}
+
+.awesome{
+    margin: 20px 0;
+}
+
+.add,
+.call-us,
+.email{
+    display: flex;
+    gap: 10px;
+}
+
+.web-detail i{
+    color: #3bb77e;
+}
+
+.web-detail span{
+    color: #253d4e;
+}
+
+.footer-heading h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #253d4e;
+}
+
+.web-pera{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.web-pera p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #253d4e;
+    max-width: max-content;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.web-pera p:hover{
+    color: #3bb77e;
+}
+
+.install-app img{
+    width: 120px;
+}
+
+.install-app{
+    display: flex;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.web-pera span{
+    color: #7e7e7e;
+    font-size: 16px;
+    font-weight: 400;
+}

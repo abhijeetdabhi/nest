@@ -1,0 +1,47 @@
+.img-detail h1{
+    line-height: 35px;
+}
+
+.img-detail p{
+    font-size: 18px;
+}
+
+.subscribe input{
+    width: 100%;
+}
+
+
+/* featured categories */
+.categories-list{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* deal-detail  */
+.deal-detail h1{
+    font-size: 18px;
+}
+
+/* popular product */
+.prdct1,
+.prdct2,
+.prdct3,
+.prdct4,
+.prdct5,
+.prdct6{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+/* deal-day */
+.deal-day{
+    grid-template-columns: repeat(1,minmax(0, 1fr));
+}
+
+/* product-section */
+.product-section{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+/* footer */
+footer{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}

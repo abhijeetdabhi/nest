@@ -1,0 +1,78 @@
+header,
+.input,
+.hot-deals {
+    display: none;
+}
+
+.categories-mainmenu {
+    font-size: 14px;
+}
+
+nav ul li a h1 {
+    font-size: 12px;
+}
+
+.heropage .img1 img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.img-detail {
+    padding: 50px;
+}
+
+.img-detail h1 {
+    font-size: 30px;
+}
+
+.img-detail p {
+    margin: 20px 0;
+}
+
+.subscribe {
+    height: 10px;
+    border-radius: 10px;
+}
+
+.img-detail .subscribe .btn a {
+    padding: 5px;
+    margin: 0 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+/* featured categories */
+
+.categories-list{
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+/* deal-box */
+.deal-box{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+/* deal-detail  */
+.deal-detail h1{
+    font-size: 38px;
+}
+
+/* popular-product */
+.prdct1,
+.prdct2,
+.prdct3,
+.prdct4,
+.prdct5,
+.prdct6{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* product-section */
+.product-section{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* footer */
+footer{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}

@@ -1,0 +1,16 @@
+/* heropage */
+.img-detail .subscribe .btn a{
+    font-size: 12px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+/* popular product */
+.prdct1,
+.prdct2,
+.prdct3,
+.prdct4,
+.prdct5,
+.prdct6{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}

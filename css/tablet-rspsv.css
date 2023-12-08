@@ -1,0 +1,49 @@
+.user-detail .compare,
+.wishlist,
+.cart p,
+.account {
+    display: none;
+}
+
+.bar {
+    display: block;
+}
+
+.input2 {
+    display: flex;
+}
+
+nav {
+    display: none;
+}
+
+/* heropage */
+
+.subscribe {
+    width: 100%;
+}
+
+.img-detail .subscribe .btn a {
+    padding: 2px;
+}
+
+/* deal-detail  */
+.deal-detail h1{
+    font-size: 28px;
+}
+
+/* popular-product */
+.heading-title{
+    flex-direction: column;
+    text-align: start;
+    gap: 20px;
+}
+
+.heading-list{
+    flex-wrap: wrap;
+}
+
+/* deal-day */
+.deal-day{
+    grid-template-columns: repeat(2,minmax(0, 1fr));
+}
